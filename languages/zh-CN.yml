@@ -1,45 +1,45 @@
 title:
-  archive: 档案馆
-  category: 分类
-  tag: 标签
+  archive: 檔案館
+  category: 分類
+  tag: 標籤
   search: 搜索
-  not_found: 这个页面走丢了呢…
-  status: 查看动态
-categories_list: 分类目录
-read_more: 继续阅读
-read_full: 阅读全文
+  not_found: 這個頁面走丟了呢…
+  status: 查看動態
+categories_list: 分類目錄
+read_more: 繼續閱讀
+read_full: 閱讀全文
 search: 搜索
-search_notice: 有什么想找找看的呢o(*￣▽￣*)ブ
+search_notice: 有什麼想找找看的呢
 search_submit: 找一找~
-search_notice_page: 这里是 %s 的搜索引擎~
-search_notice_keys: 搜索多个关键词时请用空格分割，例如「%s」这样；
-search_notice_tags: 您也可以使用这些标签碰碰运气哦~
-tag: 标签
-tagcloud: 标签聚合
-prev: 上一页
-next: 下一页
+search_notice_page: 這裡是 %s 的搜索引擎~
+search_notice_keys: 搜索多個關鍵詞時請用空格分割，例如「%s」這樣
+search_notice_tags: 您也可以使用這些標籤碰碰運氣哦~
+tag: 標籤
+tagcloud: 標籤聚合
+prev: 上一頁
+next: 下一頁
 comment: 留言
-archive: 文章归档
-archive_count: 当前共有 %d 篇文章 (゜-゜)つロ 干杯~
-page: 第 %d 页
+archive: 文章歸檔
+archive_count: 當前共有 %d 篇文章
+page: 第 %d 頁
 recent_posts: 最新文章
 newer: 上一篇
 older: 下一篇
 share: 分享
-rss_feed: RSS 订阅
-category: 分类
-category_in: 分类于
-copyright: 版权所有
+rss_feed: RSS 訂閱
+category: 分類
+category_in: 分類於
+copyright: 版權所有
 author: 作者
-read_count: '%s 次阅读'
-comments_count: '%s 条评论'
-last_modify: 最后编辑：
-last_modify_alert: 本文最后编辑于 %s 前，其中的内容可能需要更新。
-reward: 打赏
-no_title: 无标题
-use_cc4_license: 本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可
-toc: 文章目录
+read_count: '%s 次閱讀'
+comments_count: '%s 條評論'
+last_modify: 最後編輯：
+last_modify_alert: 本文最後編輯於 %s 前，其中的內容可能需要更新。
+reward: 打賞
+no_title: 無標題
+use_cc4_license: 本作品採用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知識共享署名-相同方式共享 4.0 國際許可協議</a> 進行許可
+toc: 文章目錄
 words: 字
 post: 文章
-tags_count: 当前共有 %d 个标签 (゜-゜)つロ 干杯~
-categories_count: 当前共有 %d 种分类 (゜-゜)つロ 干杯~
+tags_count: 當前共有 %d 個標籤
+categories_count: 當前共有 %d 種分類
