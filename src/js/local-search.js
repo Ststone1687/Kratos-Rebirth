@@ -96,7 +96,7 @@ function createPosts(resArr) {
 function loadDataSearch(searchDataFile, skeys) {
     fetch(searchDataFile)
         .then((res)=>{
-            setNotice('success', '文件加载完成，开始搜索啦~');
+            setNotice('success', '文件載入成功，開始搜尋啦~');
             if (typeof NProgress !== 'undefined') {
                 NProgress.inc();
             }
@@ -209,7 +209,7 @@ function loadDataSearch(searchDataFile, skeys) {
 
 function keySearch(skeys) {
     // 设置搜索提示
-    setNotice('info', '正在加載搜索文件...');
+    setNotice('info', '正在載入搜尋文件...');
 
     // 启动进度条
     if (typeof NProgress !== 'undefined') {
