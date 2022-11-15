@@ -235,8 +235,8 @@ window.cancelIdleCallback = window.cancelIdleCallback || function(id) {
 -------------------------
 ${kr.copyrightNotice}
 作者：${document.querySelector("meta[name='author']").getAttribute('content')}
-来源：${document.title}
-链接：${window.location.href}
+來源：${document.title}
+連結：${window.location.href}
 `;
     }
 
@@ -310,7 +310,7 @@ ${kr.copyrightNotice}
             if (sstr && sstr.length === 1) {
                 sstr = '0' + sstr;
             }
-            tString = dstr + "天" + hstr + "小时" + mstr + "分" + sstr + "秒";
+            tString = dstr + "天" + hstr + "小時" + mstr + "分" + sstr + "秒";
         } else {
             // 大概值
             if (dnum < 540) {
@@ -320,7 +320,7 @@ ${kr.copyrightNotice}
                     tString = dstr + "天";
                 } else {
                     // 年内月外
-                    tString = Math.floor(dnum / 30).toString() + '个月';
+                    tString = Math.floor(dnum / 30).toString() + '個月';
                 }
             } else {
                 // 年外
@@ -351,7 +351,7 @@ ${kr.copyrightNotice}
 
             figure.innerHTML += 
             `<button class="copy" data-clipboard-target="#code-${count}">
-                <i class="fa fa-copy"></i>&nbsp;复制
+                <i class="fa fa-copy"></i>&nbsp;複製
             </button>`;
         });
 
@@ -446,11 +446,11 @@ ${kr.copyrightNotice}
                     const linkItem = tocItem.querySelector('.toc-link');
                     const titleText = decodeURI(linkItem.getAttribute('href'));
                     if (titleText.substring(0, 1) != '#') {
-                        throw new Error('TOC 小标题链接无效，格式无限');
+                        throw new Error('TOC 小標題鏈接無效，格式無限');
                     }
                     const titleElem = document.getElementById(titleText.substring(1));
                     if (!titleElem) {
-                        throw new Error('TOC 小标题链接无效，未找到相关引用');
+                        throw new Error('TOC 小標題鏈接無效，未找到相關引用');
                     }
                     titleElem.setAttribute("data-toc-id", tocItems.length)
                     tocItems.push({
@@ -459,7 +459,7 @@ ${kr.copyrightNotice}
                     });
                 });
             } catch (e) {
-                console.log('错误：', e.message);
+                console.log('錯誤：', e.message);
                 Array.from(tocDOMs).forEach((tocItem) => {
                     tocItem.classList.add('show');
                 });

@@ -189,13 +189,13 @@ function loadDataSearch(searchDataFile, skeys) {
             });
             if (resultCount !== 0) {
                 const finishTime = performance.now();
-                setNotice('success', '找到 ' + resultCount + ' 条搜索结果，用时 ' + Math.round((finishTime - startTime)*100)/100 + ' 毫秒~');
+                setNotice('success', '找到 ' + resultCount + ' 條搜索結果，搜尋時間 ' + Math.round((finishTime - startTime)*100)/100 + ' 毫秒~');
                 resultArray.sort((a, b)=>{
                     return b[1] - a[1];
                 });
                 createPosts(resultArray);
             } else {
-                setNotice('danger', '什么都没有找到欸...');
+                setNotice('danger', '什麼都沒有找到欸...');
                 clearPosts();
             }
             if (typeof NProgress !== 'undefined') {
@@ -203,13 +203,13 @@ function loadDataSearch(searchDataFile, skeys) {
             }
         })
         .catch((error)=>{
-            setNotice('danger', '错误 : ' + error);
+            setNotice('danger', '錯誤 : ' + error);
         });
 }
 
 function keySearch(skeys) {
     // 设置搜索提示
-    setNotice('info', '正在加载搜索文件...');
+    setNotice('info', '正在加載搜索文件...');
 
     // 启动进度条
     if (typeof NProgress !== 'undefined') {
